@@ -1,0 +1,171 @@
+ <!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+	<meta charset="utf-8">
+	<title>Filtres</title>
+	<link rel="stylesheet" href="style.css">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<aside class="filter">
+		<div class="filter_Titre">
+			<h4 class="filter_Titre_h4">Filtres</h4>
+			<p class="filter_Titre_SupprimerFiltres texthover">Supprimer mes filtres</p>
+		</div>
+		<div class="filter_DateParution">
+			<div class="filter_DateParution_Titre">
+				<h5 class="filter_DateParution_Titre_H1">Date de parution</h5>
+			</div>
+			<div class="filter_DateParution_check">
+				<input type="checkbox" id="DateAnniversaire" name="DateAnniversaire">
+				<label for="DateAnniversaire">Date anniversaire</label>	
+			</div>
+			<select name="parution" id="id_filter_Titre" class="filter_Titre_selected">
+				<option value="">Choisir une date, période</option>
+				<option value="dog">Choisir une date, période</option>
+				<option value="cat">Moins d'une heure</option>
+				<option value="hamster">Moins de 24 heures</option>
+				<option value="parrot">Moins d'une semaine</option>
+				<option value="spider">Moins d'un mois</option>
+				<option value="goldfish">Moins d'un an</option>
+				<option value="goldfish">Période personnalisée</option>
+			</select>
+		</div>
+		<div class="filter_rubriques">
+			<div class="filter_rubriques_Titre">
+				<h5 class="filter_rubriques_Titre_H5">Rubriques</h5>
+				<span class="filter_rubriques_Titre_Recherche"><span class="icon_glass"><span></><input type="text" placeholder="ex. Cinéma, football..."><span>
+			</div>
+			<div class="filter_rubriques_Checkboxs">
+				<div>
+					<span>
+						<input type="checkbox" id="" name="">
+						<label for="">Une</label>
+					</span>
+					<i>100 705</i>
+				</div>
+				<div>
+					<span>
+						<input type="checkbox" id="" name="">
+						<label for="">Actualité en continu</label>
+					</span>
+					<i>35 785</i>
+				</div>
+				<div>
+					<span>
+						<input type="checkbox" id="" name="">
+						<label for="">Sport</label>
+					</span>
+					<i>6 205</i>
+				</div>
+				<div>
+					<span>
+						<input type="checkbox" id="" name="">
+						<label for="">Santé</label>
+					</span>
+					<i>3 245</i>
+				</div>
+				<div>
+					<span>
+						<input type="checkbox" id="" name="">
+						<label for="">Société</label>
+					</span>
+					<i>2 241</i>
+				</div>
+				<div>
+					<span>
+						<input type="checkbox" id="" name="">
+						<label for="">Economie</label>
+					</span>
+					<i>203</i>
+				</div>
+				<div>
+					<span class="btn btn_filter">Voir plus +</span>
+				</div>
+			</div>
+		</div>
+		<div class="filter_localisation">
+			<div class="filter_localisation_Titre">
+				<h5 class="filter_localisation_Titre_H5">Localisation</h5>
+				<span class="filter_localisation_Titre_Recherche"><span class="icon_glass"><span></span><input type="text" placeholder="ex. Rennes, Finistère..."></span>
+			</div>
+			<div class="filter_localisation_Checkboxs">
+				<div>
+					<span>
+						<input type="checkbox" id="" name="">
+						<label for="">Régions</label>
+					</span>
+					<i>562 318</i>
+				</div>
+				<div>
+					<span>
+						<input type="checkbox" id="" name="">
+						<label for="">Pays de la loire</label>
+					</span>
+					<i>225 658</i>
+				</div>
+				<div>
+					<span>
+						<input type="checkbox" id="" name="">
+						<label for="">Bretagne</label>
+					</span>
+					<i>215 325</i>
+				</div>
+				<div>
+					<span>
+						<input type="checkbox" id="" name="">
+						<label for="">Normandie</label>
+					</span>
+					<i>85 625</i>
+				</div>
+				<div>
+					<span>
+						<input type="checkbox" id="" name="">
+						<label for="">Loire-Atlantique</label>
+					</span>
+					<i>74 304</i>
+				</div>
+				<div>
+					<span>
+						<input type="checkbox" id="" name="">
+						<label for="">Finistère</label>
+					</span>
+					<i>61 359</i>
+				</div>
+				<div>
+					<span>
+						<input type="checkbox" id="" name="">
+						<label for="">Maine-et-Loire</label>
+					</span>	
+					<i>55 188</i>
+				</div>
+				<div>
+					<span>
+						<input type="checkbox" id="" name="">
+						<label for="">Côte d'armor</label>
+					</span>
+					<i>50 205</i>
+				</div>
+				<div>
+					<span class="btn btn_filter">Voir plus +</span>
+				</div>
+			</div>				
+		</div>
+		<div class="filter_Date">
+			<div class="filter_Date_Titre">
+				<h5 class="filter_Date_Titre_H5">Date</h5>
+			</div>
+			<div class="filter_Date_SelectionDate"><p>2020</p><i>347 101</i></div>
+			<div class="filter_Date_SelectionDate"><p>de 2020 à 2029</p><i>231 637</i></div>
+			<div class="filter_Date_SelectionDate"><p>2019</p><i>54 439</i></div>
+			<div class="filter_Date_SelectionDate"><p>2018</p><i>3 431</i></div>
+			<div>
+				<span class="btn btn_filter">Voir plus +</span>
+			</div>
+		</div>
+	</aside>
+</body>
+
+</html> 

@@ -1,0 +1,175 @@
+/*** Général ***/
+
+:root{
+	--colorRed:#b40015;
+	--colorDarkGrey:#333;
+	--colorLightGrey:#888;
+	
+	--widthblockfiltres: 300px;
+	--sizeTitresFiltres: 20px;
+	--marginBottomCheckbox: 10px;
+}
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: var(--colorRed);
+}
+
+i{
+	font-style: normal;
+	color: var(--colorLightGrey);
+	font-size: 14px;
+}
+.texthover{
+	cursor: pointer;
+}
+
+.btn{
+	display:inline-block;
+	border: 1px solid var(--colorLightGrey);
+	color: var(--colorLightGrey);
+	border-radius: 20px;
+	margin-top:10px;
+	padding: 8px 10px 8px 10px;
+	font-size: 0.9rem;
+	cursor: pointer;
+}
+
+.btn:hover{
+	color: var(--colorRed);	
+	border-color: var(--colorRed);	
+}
+/*** Fin Général ***/
+/*** aside filtre Général ***/
+.filter{
+	width:350px;
+	border-right: 1px dotted grey;
+	padding: 20px 0px 0px 8px
+}
+
+.filter > div{
+	margin-top: 20px
+}
+
+/*** Fin aside filtre Général ***/
+
+.filter_Titre{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	width:var(--widthblockfiltres);
+}
+
+.filter_Titre_h4{
+	font-size: 2rem;
+	color: var(--colorDarkGrey);
+}
+
+.filter_Titre_SupprimerFiltres{
+	font-size: 0.8rem;
+	color: #888;
+}
+
+.filter_Titre_SupprimerFiltres:hover{
+	color: var(--colorRed);
+}
+
+/*** Fin Titre Filtre ***/
+/*** Date de Parution***/
+
+.filter_DateParution{
+	width:var(--widthblockfiltres);
+}
+
+.filter_DateParution_Titre{
+	font-size: var(--sizeTitresFiltres);
+	margin-bottom: 10px;
+}
+
+.filter_DateParution_check{
+	margin-bottom: 10px
+}
+
+.filter_Titre_selected{
+	width:100%;
+	height: 50px;
+	border: 1px solid var(--colorLightGrey);
+}
+/*** Fin Date de Parution***/
+/*** Rubriques***/
+.filter_rubriques{
+	width:var(--widthblockfiltres);
+}
+
+.filter_rubriques_Titre{
+	font-size: var(--sizeTitresFiltres);
+	margin-bottom: 10px;
+}
+
+.filter_rubriques_Titre_Recherche{
+	display:block;
+	margin-top: 10px;
+}
+
+.filter_rubriques_Titre_Recherche Input{
+	width:100%;
+	height: 40px;
+	border: 1px solid var(--colorLightGrey);
+}
+
+.filter_rubriques_Checkboxs > div{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: var(--marginBottomCheckbox);
+}
+
+/*** Fin de Rubriques***/
+/*** Localisation***/
+.filter_localisation{
+	width:var(--widthblockfiltres);
+}
+
+.filter_localisation_Titre{
+	font-size: var(--sizeTitresFiltres);
+	margin-bottom: 10px;
+}
+
+.filter_localisation_Titre_Recherche{
+	display:block;
+	margin-top: 10px;
+}
+
+.filter_localisation_Titre_Recherche Input{
+	width:100%;
+	height: 40px;
+	border: 1px solid var(--colorLightGrey);
+}
+
+.filter_localisation_Checkboxs > div{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: var(--marginBottomCheckbox);
+}
+/*** Fin de Localisation***/
+/*** Date***/
+.filter_Date{
+	width:var(--widthblockfiltres);
+}
+.filter_Date_Titre{
+	font-size: var(--sizeTitresFiltres);
+	margin-bottom: 10px;
+}
+.filter_Date_SelectionDate{
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: var(--marginBottomCheckbox);
+}
+.filter_Date_SelectionDate p{
+	display: inline;
+}
+/***Fin de Date***/
